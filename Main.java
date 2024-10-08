@@ -8,6 +8,9 @@ public class Main
         savings.logIn("Jeffrey23", "password");
         System.out.println(savings.getBalance());
 
+        int withdrawAmount = 100;
+        System.out.println("System Withdrawal:");
+        System.out.println(Balance-withdrawAmount);
 
     }
 }

@@ -47,7 +47,6 @@ public class BankAccount {
 
   public static double Withdraw(double balance, double withdrawnAmount)
   {
-    Scanner
     balance -= withdrawnAmount;
     return balance;
 
