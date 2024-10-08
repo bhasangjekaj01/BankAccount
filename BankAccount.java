@@ -47,16 +47,9 @@ public class BankAccount {
 
   public static double Withdraw(double balance, double withdrawnAmount)
   {
-    System.out.println("Withdrawing amount: " + withdrawnAmount);
-    if (balance >= withdrawnAmount) {
-      balance = balance - withdrawnAmount;
-      System.out.println("Withdrawal complete");
-      System.out.println("Current balance: " + balance);
-    }
-    else{
-      System.out.println();
-
-    }
+    Scanner
+    balance -= withdrawnAmount;
+    return balance;
 
   }
 
