@@ -45,16 +45,17 @@ public class BankAccount {
 
   }
 
-  public static double Withdraw(double balance, double withdrawnAmount)
+  public void withdraw(double withdrawnAmount)
   {
     balance -= withdrawnAmount;
-    return balance;
-
   }
-
+  public void deposit(double depositAmount)
+  {
+    balance += depositAmount;
+  }
   public String toString()
   {
-    return "Account Number: " + this.accountNumber;
+    return "Account Number: " + this.accountNumber +  " balance: " + balance;
   }
 
 
